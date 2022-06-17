@@ -1,0 +1,7 @@
+.instagram-wrapper{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+}

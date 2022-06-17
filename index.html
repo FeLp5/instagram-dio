@@ -1,41 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Instagram</title>
+
+
+    <!-- Separei em modulos, embora não seja uma LP modular ajuda a encontrar problemas de posicionamento
+    dos itens como também erros de estilização -->
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/main-container.css">
+    <link rel="stylesheet" href="./CSS/main-wrapper.css">
+    <link rel="stylesheet" href="./CSS/main-user-content.css">
+    <link rel="stylesheet" href="./CSS/main-login.css">
+    <link rel="stylesheet" href="./CSS/main-download-sect.css">
+    <link rel="stylesheet" href="./CSS/main-responsive.css">
+
 </head>
 <body>
     <div class="instagram-wrapper">
+        
         <div class="instagram-phone">
             <img src="./img/instagram-celular.png" alt="celular">
         </div>
-        <div class="instagram-continue">
-            <div class="group">
-                <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
-                <div class="profile-photo">
-                    <img src="./img/perfil-instagram.jpg" alt="foto de perfil">
+            <div class="instagram-continue">
+                <div class="container">
+                    <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram-logo">
+                    <div class="profile-photo">
+                        <img src="./img/perfil-instagram.jpg" class="profile-photo" alt="profile-photo">
+                    </div>
+                    <a href="#" class="instagram-login">Continue como Felipe</a>
+                    <a href="#" class="instagram-logout">Remover conta</a>
                 </div>
-                <a href="#" class="instagram-login">Continue como sprucegabriela</a>
-                <a href="#" class="instagram-logout">Remover conta</a>
-            </div>
-            <div class="group">
-                <p class="not-account">Não é sprucegabriela?</p>
-                <p class="not-account">
-                    <span class="link-blue">Alternar contas</span>
-                    ou
-                    <span class="link-blue">Inscreva-se</span>
-                </p>
-            </div>
-            <div class="get-the-app">
-                <p class="get-app">Baixe o aplicativo</p>
-                <div class="download">
-                    <a href="#" class="app-download"></a>
-                    <a href="#" class="app-download"></a>
+
+                <div class="container">
+                        <p class="not-account">Não é Felipe?</p>
+                        <p class="notaccount-">
+                            <span class="link-blue">Alternar contas</span>
+                            ou
+                            <span class="link-blue">Inscreva-se</span>
+                        </p>
+                </div>
+
+                <div class="get-the-app">
+                    <p class="get-app">Baixe o aplicativo</p>
+                    <div class="download">
+                        <a href="#" class="app-download -scnd">
+                            <img src="./img/apple-button.png" alt="apple" class="apple">
+                        </a>
+                        <a href="#" class="app-downlaod -frst">
+                            <img src="./img/googleplay-button.png" alt="googleplay" class="googleplay">
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
+
+
     </div>
+
+
+
 </body>
 </html>

@@ -1,0 +1,46 @@
+/* Media queries */
+
+
+
+@media(max-width: 1024px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+}
+
+@media(max-width: 650px){
+    body{
+        background-color: #FFFF;
+    }
+
+    .container{
+        border: 1px solid transparent;
+    }
+
+    .instagram-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .instagram-phone img{
+        display: none;
+    }
+
+    .instagram-continue{
+        margin: auto;
+        width: 100%;
+    }
+
+
+
+    .googleplay{
+        max-width: 150px;
+    }
+    
+    .apple{
+        max-width: 150px;
+    }
+}
+
+

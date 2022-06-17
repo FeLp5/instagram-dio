@@ -1,0 +1,53 @@
+.instagram-continue{
+    display: flex;
+    align-items: center; /* horizontal */
+    justify-content: space-around; /* vertical */
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+
+.intagram-logo{
+    height: 3rem;
+}
+
+.instagram-continue .profile-photo{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    border-radius: 50%; 
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-photo img{
+    height: 6rem;
+}
+
+.instagram-continue .instagram-login{
+    color: #FFF;
+    background-color: #0095f6;
+    border-radius: 4px;
+    padding: 8px;
+    /* font-size: 15px; */
+    font-weight: 500;
+}
+
+
+.instagram-continue .instagram-logout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+
+.not-account{
+    color: rgb(160, 160, 160);
+}
+
+.link-blue{
+    color: #0095f6;
+    cursor: pointer;
+}
+
